@@ -124,6 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 color: Colors.red,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center, //垂直方向居中对齐
+                  // ignore: prefer_const_literals_to_create_immutables
                   children: <Widget>[
                     Text("hello world "),
                     Text("I am ChenVadder "),
